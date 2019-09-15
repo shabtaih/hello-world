@@ -53,9 +53,9 @@ void LinkedList::print(){
 int main(int argc, char const *argv[])
 {
     LinkedList* list = new LinkedList();
-    for (int i = 0; i < 100; ++i)
+    for (int i = 0; i < 101; ++i)
     {
-        list->add(rand() % 100);
+        list->add(rand() % 101);
     }
     list->print();
     std::cout << "List Length: " << list->length << std::endl;
